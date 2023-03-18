@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 //pages
-import aboutMe from "./pages/aboutMe";
+import AboutMe from "./pages/aboutMe";
 import Portfolio from "./pages/portfolio";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
@@ -14,7 +14,7 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     if (currentPage === "aboutMe") {
-      return <aboutMe />;
+      return <AboutMe />;
     }
     if (currentPage === "portfolio") {
       return <Portfolio />;
@@ -32,6 +32,7 @@ export default function PortfolioContainer() {
       <Header handlePageChange={handlePageChange} currentPage={currentPage} />
 
       {renderPage()}
+      {console.log(currentPage)}
       <Footer />
     </div>
   );
