@@ -1,14 +1,16 @@
 import React from "react";
+import magpie from "../assets/magpiegallerysplash.png";
+import getMoving from "../assets/get_moving_homepage.png";
 
 const projectList = [
   {
-    pic: "../assets/get_moving_homepage.png",
+    pic: getMoving,
     title: "Get Moving",
     url: "http://projectthreemern.herokuapp.com/",
     repo: "https://github.com/jicard/Project-3-Repo",
   },
   {
-    pic: "src/assets/magpiegallerysplash.png",
+    pic: magpie,
     title: "Magpie Gallery",
     url: "https://murmuring-ocean-73396.herokuapp.com/",
     repo: "https://github.com/marysgreenwood/Spaghetti-on-the-Wall-Project",
@@ -17,7 +19,7 @@ const projectList = [
 
 export default function Project() {
   const projects = projectList.map((project) => (
-    <card>
+    <div class="project">
       <img src={project.pic} />
       <h3>{project.title}</h3>
       <p>
@@ -26,6 +28,7 @@ export default function Project() {
       <p>
         Repository: <a href={project.repo}>{project.repo}</a>
       </p>
-    </card>
+    </div>
   ));
+  return <div>{projects}</div>;
 }
