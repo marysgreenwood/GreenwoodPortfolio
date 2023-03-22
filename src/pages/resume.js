@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/Screenshot 2023-03-22 at 5.04.48 PM.png";
+import resume from "../assets/resume_screenshot.png";
 
 export default function Resume() {
   return (
