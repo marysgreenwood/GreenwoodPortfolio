@@ -2,10 +2,10 @@
 
 import React, { useState } from "react";
 //pages
-import AboutMe from "./pages/aboutMe";
-import Portfolio from "./pages/portfolio";
-import Resume from "./pages/resume";
-import Contact from "./pages/contact";
+import AboutMe from "../pages/aboutMe";
+import Portfolio from "../pages/portfolio";
+import Resume from "../pages/resume";
+import Contact from "../pages/contact";
 import Header from "./header";
 import Footer from "./footer";
 
