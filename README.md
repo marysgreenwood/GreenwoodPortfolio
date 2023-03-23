@@ -4,8 +4,10 @@
 
 ## Description
 
+URL: https://marysgreenwood.github.io/GreenwoodPortfolio/
+
+![screenshot](./src/assets/Screenshot.png)
 An introduction to me and my work as a developer.
-(src/assets/Screenshot 2023-03-22 at 11.14.56 PM.png)
 
 ## Table of Contents
 

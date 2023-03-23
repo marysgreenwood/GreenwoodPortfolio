@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
+const styles = {
+  formStyle: { margin: "15px" },
+};
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -34,7 +37,7 @@ const Contact = () => {
   return (
     <div id="contact-form">
       <form>
-        <div class="form-group">
+        <div class="form-group" style={styles.formStyle} >
           <input
             type="text"
             placeholder="Your Name"
@@ -42,7 +45,7 @@ const Contact = () => {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div class="form-group">
+        <div class="form-group" style={styles.formStyle}>
           <input
             type="email"
             placeholder="Your email address"
@@ -50,14 +53,14 @@ const Contact = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div class="form-group">
+        <div class="form-group" style={styles.formStyle}>
           <textarea
             placeholder="Your message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
         </div>
-        <button class="btn btn-primary" onClick={submit}>
+        <button class="btn btn-primary" onClick={submit} style={styles.formStyle}>
           Send Message
         </button>
         <span className={emailSent ? "visible" : null}>

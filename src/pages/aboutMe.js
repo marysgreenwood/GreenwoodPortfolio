@@ -11,7 +11,7 @@ const styles = {
 };
 export default function AboutMe() {
   return (
-    <div class="row">
+    <div class="row" style={{ background: "#ffeead" }}>
       <div class="col-md-3 m3">
         <img src={profilePic} alt="profile picture" style={styles.picStyles} />
       </div>

@@ -7,7 +7,11 @@ import weather from "../assets/weatherDashboard.png";
 import question from "../assets/question.jpg";
 
 const styles = {
-  projectPic: { maxWidth: "250px" },
+  projectPic: {
+    width: "450px",
+    height: "300px",
+    objectFit: "cover",
+  },
 };
 const projectList = [
   {
@@ -50,7 +54,7 @@ const projectList = [
 
 export default function Project() {
   const projects = projectList.map((project) => (
-    <div class="card col-md-3">
+    <div class="card col-md-4" style={{ background: "#ffeead" }}>
       <div class="card-body">
         <img src={project.pic} alt="project image" style={styles.projectPic} />
         <h3>{project.title}</h3>
