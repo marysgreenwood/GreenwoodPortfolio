@@ -4,7 +4,7 @@ import profilePic from "../assets/Profile Pic.jpeg";
 export default function AboutMe() {
   return (
     <div>
-      <img src={profilePic} />
+      <img src={profilePic} alt='profile picture'/>
       <h2>About Me</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <img src={resume} />
+      <img src={resume} alt="resume" />
     </div>
   );
 }
