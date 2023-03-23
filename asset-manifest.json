@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/GreenwoodPortfolio/static/css/main.0c6bd59a.css",
+    "main.js": "/GreenwoodPortfolio/static/js/main.58d89520.js",
+    "static/js/787.6607cadc.chunk.js": "/GreenwoodPortfolio/static/js/787.6607cadc.chunk.js",
+    "static/media/get_moving_homepage.png": "/GreenwoodPortfolio/static/media/get_moving_homepage.2b5bdc35b8295e5d47ad.png",
+    "static/media/resume_screenshot.png": "/GreenwoodPortfolio/static/media/resume_screenshot.4cda21f45845d9a1fa60.png",
+    "static/media/Profile Pic.jpeg": "/GreenwoodPortfolio/static/media/Profile Pic.0a922ad23cdf001838ee.jpeg",
+    "static/media/weatherDashboard.png": "/GreenwoodPortfolio/static/media/weatherDashboard.98a57cf40657e8af58ad.png",
+    "static/media/magpiegallerysplash.png": "/GreenwoodPortfolio/static/media/magpiegallerysplash.d5fb40de0948f7c6ee93.png",
+    "static/media/hike.jpg": "/GreenwoodPortfolio/static/media/hike.11549229befac9f8c2dc.jpg",
+    "index.html": "/GreenwoodPortfolio/index.html",
+    "main.0c6bd59a.css.map": "/GreenwoodPortfolio/static/css/main.0c6bd59a.css.map",
+    "main.58d89520.js.map": "/GreenwoodPortfolio/static/js/main.58d89520.js.map",
+    "787.6607cadc.chunk.js.map": "/GreenwoodPortfolio/static/js/787.6607cadc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c6bd59a.css",
+    "static/js/main.58d89520.js"
+  ]
+}
