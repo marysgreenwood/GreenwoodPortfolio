@@ -4,12 +4,7 @@ import Project from "../components/project.js";
 export default function Portfolio() {
   return (
     <div>
-      <h2>Portfolio</h2>
-      
-        
-          <Project />
-        
-     
+      <Project />
     </div>
   );
 }
