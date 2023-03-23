@@ -6,6 +6,9 @@ import hike from "../assets/hike.jpg";
 import weather from "../assets/weatherDashboard.png";
 import question from "../assets/question.jpg";
 
+const styles = {
+  projectPic: { maxWidth: "250px" },
+};
 const projectList = [
   {
     pic: getMoving,
@@ -47,16 +50,18 @@ const projectList = [
 
 export default function Project() {
   const projects = projectList.map((project) => (
-    <div class="project">
-      <img src={project.pic} alt="project image" />
-      <h3>{project.title}</h3>
-      <p>
-        Website/ Demo: <a href={project.url}>{project.url}</a>
-      </p>
-      <p>
-        Repository: <a href={project.repo}>{project.repo}</a>
-      </p>
+    <div class="card col-md-3">
+      <div class="card-body">
+        <img src={project.pic} alt="project image" style={styles.projectPic} />
+        <h3>{project.title}</h3>
+        <p>
+          Website/ Demo: <a href={project.url}>{project.url}</a>
+        </p>
+        <p>
+          Repository: <a href={project.repo}>{project.repo}</a>
+        </p>
+      </div>
     </div>
   ));
-  return <div>{projects}</div>;
+  return <div class="row">{projects}</div>;
 }

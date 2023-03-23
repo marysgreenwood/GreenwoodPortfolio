@@ -1,5 +1,8 @@
 import React from "react";
 
+const styles = {
+  navStyle: { background: "#ffeead" },
+};
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">

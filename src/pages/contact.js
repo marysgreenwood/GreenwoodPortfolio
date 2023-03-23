@@ -33,27 +33,37 @@ const Contact = () => {
   };
   return (
     <div id="contact-form">
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        placeholder="Your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button onClick={submit}>Send Message</button>
-      <span className={emailSent ? "visible" : null}>
-        Thank you for your message, we will be in touch in no time!
-      </span>
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            placeholder="Your Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            placeholder="Your email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            placeholder="Your message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          ></textarea>
+        </div>
+        <button class="btn btn-primary" onClick={submit}>
+          Send Message
+        </button>
+        <span className={emailSent ? "visible" : null}>
+          Thank you for your message, we will be in touch in no time!
+        </span>
+      </form>
     </div>
   );
 };
