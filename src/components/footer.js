@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <div style={styles.bodyStyle}>
       <div style={styles.alignRight}>
-        <a href="https://www.linkedin.com/in/mary-greenwood-30b88450/">
+        <a href="https://www.linkedin.com/in/mary-greenwood-software-developer/">
           <img src={linkedIn} style={styles.logo} alt="linkedIn" />
         </a>
         <a href="https://github.com/marysgreenwood">
