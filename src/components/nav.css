@@ -1,0 +1,5 @@
+@media only screen and (max-width: 800px) {
+  li {
+    font-size: "10px";
+  }
+}

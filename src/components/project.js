@@ -8,10 +8,16 @@ import hike from "../assets/hike.jpg";
 
 const styles = {
   projectPic: {
-    width: "450px",
-    height: "300px",
+    width: "100%",
+    height: "250px",
+    //maxHeight: "300px",
     objectFit: "cover",
   },
+  cardStyles: {
+    background: "#ffeead",
+    margin: "2rem",
+  },
+  projectTitles: { marginTop: "1rem" },
 };
 const projectList = [
   {
@@ -50,10 +56,10 @@ const projectList = [
 
 export default function Project() {
   const projects = projectList.map((project) => (
-    <div class="card col-md-4" style={{ background: "#ffeead" }}>
+    <div class="card col-md-3" style={styles.cardStyles}>
       <div class="card-body">
         <img src={project.pic} alt="project image" style={styles.projectPic} />
-        <h3>{project.title}</h3>
+        <h3 style={styles.projectTitles}>{project.title}</h3>
         <p>
           Website/ Demo: <a href={project.url}>{project.url}</a>
         </p>

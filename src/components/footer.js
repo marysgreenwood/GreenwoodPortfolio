@@ -4,12 +4,13 @@ import github from "../assets/github_logo.png";
 import insta from "../assets/instaLogo.jpeg";
 
 const styles = {
-  logo: { maxWidth: "50px", margin: "5px" },
+  logo: { margin: "5px", borderRadius: "21%", maxWidth: "50px" },
   bodyStyle: {
     background: "#96ceb4",
     padding: "20px",
+    minHeight: "90px",
   },
-  alignRight: { marginLeft: "75%" },
+  alignRight: { position: "absolute", right: "10px" },
 };
 
 export default function Footer() {
