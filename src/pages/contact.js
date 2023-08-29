@@ -68,11 +68,11 @@ const Contact = () => {
         >
           Send Message
         </button>
-        <div style={styles.thankYouStyle}>
+        {/* <div style={styles.thankYouStyle}>
           <p className={emailSent ? "visible" : null}>
             Thank you for your message, we will be in touch in no time!
           </p>
-        </div>
+        </div> */}
       </form>
     </div>
   );

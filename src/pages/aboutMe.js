@@ -25,6 +25,7 @@ export default function AboutMe() {
         </div>
         <div class="col-md-9" style={styles.textStyle}>
           <h2>About Me</h2>
+          <p>Email: marysgreenwood@gmail.com </p>
           <p>
             Creative and methodical web developer with a certificate from the
             Full Stack Coding Bootcamp at UNC Chapel Hill. Experience in full
