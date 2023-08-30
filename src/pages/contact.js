@@ -4,6 +4,7 @@ import emailjs from "emailjs-com";
 const styles = {
   formStyle: { marginLeft: "2rem", marginTop: "1rem" },
   thankYouStyle: { margin: "1rem", paddingLeft: "1rem", width: "col-lg-3" },
+  buttonStyle: { marginLeft: "2rem", marginTop: "1rem", marginBottom: "1rem" },
 };
 const Contact = () => {
   const [name, setName] = useState("");
@@ -64,7 +65,7 @@ const Contact = () => {
         <button
           class="btn btn-primary"
           onClick={submit}
-          style={styles.formStyle}
+          style={styles.buttonStyle}
         >
           Send Message
         </button>
