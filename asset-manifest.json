@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/GreenwoodPortfolio/static/css/main.aaa47d8c.css",
-    "main.js": "/GreenwoodPortfolio/static/js/main.1eefb6a8.js",
+    "main.css": "/GreenwoodPortfolio/static/css/main.de74a5bf.css",
+    "main.js": "/GreenwoodPortfolio/static/js/main.5175b73d.js",
     "static/js/787.6607cadc.chunk.js": "/GreenwoodPortfolio/static/js/787.6607cadc.chunk.js",
-    "static/media/get_moving_homepage.png": "/GreenwoodPortfolio/static/media/get_moving_homepage.2b5bdc35b8295e5d47ad.png",
-    "static/media/resume_p1-screenshot.png": "/GreenwoodPortfolio/static/media/resume_p1-screenshot.9acde37b12ba43f960f1.png",
-    "static/media/resume_p2-screenshot.png": "/GreenwoodPortfolio/static/media/resume_p2-screenshot.3ec6c34af9aa13c0d5fe.png",
+    "static/media/conjuguezmoi.jpg": "/GreenwoodPortfolio/static/media/conjuguezmoi.8c0f41c3a802af2137fd.jpg",
+    "static/media/get_moving_homepage.jpeg": "/GreenwoodPortfolio/static/media/get_moving_homepage.b8f8c22889591fd5a18d.jpeg",
     "static/media/magpiegallerysplash.png": "/GreenwoodPortfolio/static/media/magpiegallerysplash.d5fb40de0948f7c6ee93.png",
     "static/media/hike.jpg": "/GreenwoodPortfolio/static/media/hike.11549229befac9f8c2dc.jpg",
     "static/media/Profile Pic.jpeg": "/GreenwoodPortfolio/static/media/Profile Pic.ed66c7b4264ff0a4018f.jpeg",
     "index.html": "/GreenwoodPortfolio/index.html",
-    "main.aaa47d8c.css.map": "/GreenwoodPortfolio/static/css/main.aaa47d8c.css.map",
-    "main.1eefb6a8.js.map": "/GreenwoodPortfolio/static/js/main.1eefb6a8.js.map",
+    "main.de74a5bf.css.map": "/GreenwoodPortfolio/static/css/main.de74a5bf.css.map",
+    "main.5175b73d.js.map": "/GreenwoodPortfolio/static/js/main.5175b73d.js.map",
     "787.6607cadc.chunk.js.map": "/GreenwoodPortfolio/static/js/787.6607cadc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa47d8c.css",
-    "static/js/main.1eefb6a8.js"
+    "static/css/main.de74a5bf.css",
+    "static/js/main.5175b73d.js"
   ]
 }
