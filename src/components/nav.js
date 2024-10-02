@@ -1,5 +1,5 @@
 import React from "react";
-//import "./nav.css";
+import "./nav.css";
 //import { NavItem } from "react-bootstrap";
 
 const styles = {
@@ -14,13 +14,14 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#aboutMe"
             onClick={() => handlePageChange("aboutMe")}
-            className={currentPage === "" ? "nav-link active" : "nav-link"}
+            className={currentPage === "aboutMe" ? "nav-link active" : "nav-link"}
           >
             About Me
           </a>
         </li>
         <li className="nav-item">
           <a
+            id= "portfolio"
             href="#portfolio"
             onClick={() => handlePageChange("portfolio")}
             //  TODO: Add a comment explaining what this logic is doing
@@ -34,9 +35,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
+            
             href="#resume"
             onClick={() => handlePageChange("Resume")}
-            //  TODO: Add a comment explaining what this logic is doing
+            
 
             className={
               currentPage === "Resume" ? "nav-link active" : "nav-link"
@@ -48,7 +50,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             href="#contact"
-            //  TODO: Add a comment explaining what this logic is doing
 
             onClick={() => handlePageChange("Contact")}
             className={

@@ -1,0 +1,10 @@
+.headingStyle {
+    background-image: linear-gradient(to top right, #581118, #882B2B);
+  /* background: #800020; */
+  color: #f0ffff;
+  width: 100%;
+}
+h1 {
+margin-left: 4rem;
+  padding-top: 2rem;
+}

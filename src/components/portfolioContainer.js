@@ -1,6 +1,7 @@
 //About Me, Portfolio, Contact, and Resume
 
 import React, { useState } from "react";
+import "./portfolioContainer.css"
 //pages
 import AboutMe from "../pages/aboutMe";
 import Portfolio from "../pages/portfolio";
@@ -29,11 +30,17 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <Header handlePageChange={handlePageChange} currentPage={currentPage} />
+      <div class="header">
+        <Header handlePageChange={handlePageChange} currentPage={currentPage} />
+      </div>
 
-      {renderPage()}
-      {console.log(currentPage)}
-      <Footer />
+      <div class="mainBody">
+        {renderPage()}
+        {console.log(currentPage)}
+      </div>
+      <div class="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

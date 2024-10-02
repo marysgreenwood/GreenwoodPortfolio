@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import "./contact.css"
 
-const styles = {
-  formStyle: { marginLeft: "2rem", marginTop: "1rem" },
-  thankYouStyle: { margin: "1rem", paddingLeft: "1rem", width: "col-lg-3" },
-  buttonStyle: { marginLeft: "2rem", marginTop: "1rem", marginBottom: "1rem" },
-};
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -14,7 +10,7 @@ const Contact = () => {
 
   const submit = () => {
     if (name && email && message) {
-      const serviceId = "service_7dmb6sr";
+      const serviceId = "service_yldvzh2";
       const templateId = "template_bnajgof";
       const publicKey = "Sh2-psiqmm5aj_rzm";
       const templateParams = {
@@ -39,7 +35,7 @@ const Contact = () => {
   return (
     <div id="contact-form">
       <form>
-        <div class="form-group" style={styles.formStyle}>
+        <div class="formStyle">
           <input
             type="text"
             placeholder="Your Name"
@@ -47,7 +43,7 @@ const Contact = () => {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div class="form-group" style={styles.formStyle}>
+        <div class="form-group formStyle">
           <input
             type="email"
             placeholder="Your email address"
@@ -55,7 +51,7 @@ const Contact = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div class="form-group" style={styles.formStyle}>
+        <div class="form-group formStyle">
           <textarea
             placeholder="Your message"
             value={message}
@@ -63,17 +59,17 @@ const Contact = () => {
           ></textarea>
         </div>
         <button
-          class="btn btn-primary"
+          class="buttonStyle"
           onClick={submit}
-          style={styles.buttonStyle}
+          
         >
           Send Message
         </button>
-        {/* <div style={styles.thankYouStyle}>
-          <p className={emailSent ? "visible" : null}>
+        <div class="thankYouStyle">
+          <p class={emailSent ? "visible" : "hidden"}>
             Thank you for your message, we will be in touch in no time!
           </p>
-        </div> */}
+        </div>
       </form>
     </div>
   );

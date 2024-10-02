@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+.mainBody {
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top:0px;
+}

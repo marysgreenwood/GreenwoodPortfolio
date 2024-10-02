@@ -1,0 +1,33 @@
+.formStyle {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+input {
+  width: 300px;
+}
+
+textarea {
+  width: 300px;
+}
+.thankYouStyle {
+  margin: 1rem;
+  padding-left: 1rem;
+  width: col-lg-3;
+}
+
+.buttonStyle {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-color: #581118;
+  border-radius: 10px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
